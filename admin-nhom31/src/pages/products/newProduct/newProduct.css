@@ -1,0 +1,96 @@
+.newProduct {
+    flex: 4;
+    padding: 60px;
+    background: url("https://crmviet.vn/wp-content/uploads/2019/01/khach-hang-ben-trong-doanh-nghiep.jpg") top center/cover no-repeat;
+}
+
+.newProductContainer {
+    width: 840px;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: .6rem;
+    box-shadow: inset 0px 2px 5px rgba(255, 255, 255, 0.8), 2px 0px 5px rgba(0, 0, 0, 0.2), 0px 2px 5px rgba(0, 0, 0, 0.2), inset 2px 5px 3px rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
+}
+
+.newProductForm {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.newProductItem {
+    width: 400px;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.newProductItem>label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.newProductItem>div>span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.newProductItem>div>span>span {
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 8px;
+}
+.newProductInput {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: .5rem;
+    font-size: 16px;
+}
+
+.newProductGender>input {
+    margin-top: 15px;
+}
+
+.newProductGender>label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newProductActive>input {
+    margin-top: 15px;
+}
+
+.newProductActive>label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newProductPostImg {
+    cursor: pointer;
+}
+
+.newProductButton {
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 12px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.image-layout {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}

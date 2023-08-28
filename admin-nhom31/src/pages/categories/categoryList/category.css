@@ -1,0 +1,22 @@
+.brandList {
+    flex: 4;
+    width: 100%;
+    margin: 20px 40px;
+    padding: 20px;
+}
+
+
+.brandListEdit {
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    border-radius: .7rem;
+    cursor: pointer;
+}
+
+.brandListDelete {
+    color: red !important;
+    margin-left: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,8 @@
+/* .home {
+    width: 100%;
+} */
+
+.homeWidgets {
+    display: flex;
+    gap: 10px;
+}

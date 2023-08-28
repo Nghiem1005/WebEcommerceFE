@@ -1,0 +1,81 @@
+.newUser {
+  flex: 4;
+  padding: 60px;
+  background: url("https://crmviet.vn/wp-content/uploads/2019/01/khach-hang-ben-trong-doanh-nghiep.jpg")
+    top center/cover no-repeat;
+}
+
+.newUserContainer {
+  width: 700px;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 0.6rem;
+  box-shadow: inset 0px 2px 5px rgba(255, 255, 255, 0.8),
+    2px 0px 5px rgba(0, 0, 0, 0.2), 0px 2px 5px rgba(0, 0, 0, 0.2),
+    inset 2px 5px 3px rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255);
+  transition: height 3s ease-in;
+}
+
+.flex {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: flex-end;
+}
+
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.half {
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newUserInput {
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  width: 100%;
+}
+
+.newUserActive > input {
+  margin-top: 15px;
+}
+
+.newUserActive > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.newUserButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 12px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+}
